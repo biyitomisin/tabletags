@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling</title>
+</head>
+<body>
+    <section>
+        <h2>INLINE STYLING.</h2>
+        <div>
+        <h4>Advantages</h4>
+        <ol>
+            <li>Specificity: Inline styles have the highest level of specificity, which means they can easily override any other styles applied to the element.</li>
+            <li>Convenience: Inline styles are convenient for making quick, specific changes to indiviual elements without affecting the rest of the document.</li>
+            <li>Portability: When copying and pasting HTML elements, inline styles are carried along with the element, making it easier to maintain the styling.</li>
+        </ol>
+    </div>
+    <div>
+        <h4>Disadvantages</h4>
+        <ol>
+        <li>maintainance: Inline styles can make the HTML document harder to maintain, as styles are mixed with the content and not centralized in a seperate stylesheet.</li>
+        <li>Readability: Large amounts of inline styles can make the HTML code less readable and harder to understand.</li>
+        <li>Reusability: Inline styles cannot be reused across multiple elements, leading to redundant code and increased file sizes.</li>
+    </ol>
+    </div>
+    </section>
+    <section>
+        <h2>INTERNAL STYLING.</h2>
+        <div>
+        <h4>Advantages</h4>
+        <ol>
+            <li>Internal CSS has higher specificity than external CSS, which allows you to override external styles more easily within the same HTML file.</li>
+            <li>Internal CSS reduces HTTP requests, enhancing performance.</li>
+            <li>Internal CSS is relatively easy to implement we can use class and id selectors in this stylesheet.</li>
+        </ol>
+    </div>
+    <div>
+        <h4>Disadvantages</h4>
+        <ol>
+        <li>Repetition in HTML files.</li>
+        <li>Increased file size.</li>
+        <li>Reduced code usability.</li>
+    </ol>
+    </div>
+    </section>
+    <section>
+        <h2>EXTERNAL STYLING.</h2>
+        <div>
+        <h4>Advantages</h4>
+        <ol>
+            <li>With the help of External Style sheets, the styles of numerous documents can be organized from one single file.</li>
+            <li>In External Style Sheets, classes can be made for use on numerous HTML element types in many forms of the site.</li>
+            <li>In complex contexts, methods like selector and grouping can be implemented to apply styles.</li>
+        </ol>
+    </div>
+    <div>
+        <h4>Disadvantages</h4>
+        <ol>
+        <li>An extra download is essential to import style information for each file.</li>
+        <li>The execution of the file may be deferred till the external style sheet is loaded.</li>
+        <li>While implementing styel sheets, we need to test Web pages with multiple browsers in order to check compatibility issues.</li>
+    </ol>
+    </div>
+    </section>
+
+</body>
+</html>
